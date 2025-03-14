@@ -1,7 +1,11 @@
-# Hotel-Rating-Redress
-本项目一个协作文本情感分析的项目. 通过对酒店评价的语义分析, 修正不同评分见的主观性, 根据数据库中文本, 把同一语义的文本评论对应的分数统一化.
+# Hotel-Rating-Redress - Review Sentiment Analysis
+This project involved a collaborative sentiment analysis of hotel reviews, aiming to reduce subjectivity in different ratings by analyzing the semantic meaning of review texts. The goal was to standardize the scores for reviews with similar semantic content based on the text data from the database.
 
-主要是扒了kaggle上一个语义分析的项目, 链接: https://www.kaggle.com/jonathanoheix/sentiment-analysis-with-hotel-reviews/notebook
-把每个库和函数都google了下,学到很多. 详见扒的文件with note的ipynb和pdf.
+# My Contributions:
+Focused on the Word2Vec implementation to represent review texts as vectors, improving the accuracy of sentiment classification.
+Applied K-means clustering using Veka to group reviews with similar semantic patterns.
+Studied and adapted a Kaggle sentiment analysis project (link), thoroughly researching each library and function to understand the implementation and improve my machine learning and NLP skills.
 
-项目是和同学协作完成的, 我负责word2vec部分, 后续的用veka做k-means聚类分析.
+# Outcome:
+Gained hands-on experience in NLP, Word2Vec, and clustering techniques.
+Enhanced understanding of machine learning workflows and improved the consistency of hotel rating predictions through text-based sentiment analysis.
